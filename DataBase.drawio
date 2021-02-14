@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T17:04:16.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="-jSXm-1ZQZoejC7-k_qb" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-14T17:30:22.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="lxddAMF54t7aGjDKAKIT" version="14.3.1" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,26 +7,8 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;HobbyShop Database&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="4" y="10" width="820" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-14" value="Products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="126" width="250" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-15" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-14">
-          <mxGeometry y="26" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-16" value="PK INT ProductID (Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-14">
-          <mxGeometry y="52" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-17" value="NVARCHAR(128) ProductName (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-14">
-          <mxGeometry y="78" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-25" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-14">
-          <mxGeometry y="104" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-22" value="Termékeket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="250" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-31" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="600" y="126" width="200" height="208" as="geometry" />
+          <mxGeometry x="600" y="126" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-32" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-31">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -49,11 +31,14 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-38" value="void GetSellLog(INT Limit)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-31">
           <mxGeometry y="182" width="200" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-104" value="void InsertSell&#xa;(NVARCHAR(128) Name, &#xa;NVARCHAR(128) productName,&#xa;NVARCHAR(16) Date)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-31">
+          <mxGeometry y="208" width="200" height="72" as="geometry" />
+        </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-40" value="Eladásokat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="600" y="100" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-42" value="Version" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="25" y="406" width="280" height="196" as="geometry" />
+          <mxGeometry x="25" y="426" width="280" height="196" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-43" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-42">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -71,7 +56,7 @@
           <mxGeometry y="150" width="280" height="46" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-50" value="Verziószámot tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="25" y="380" width="280" height="26" as="geometry" />
+          <mxGeometry x="25" y="400" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-64" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
           <mxGeometry x="90" y="866" width="200" height="234" as="geometry" />
@@ -103,35 +88,35 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-73" value="Eladásokat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="90" y="840" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-74" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="350" y="866" width="200" height="234" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-74" value="Products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="112" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-75" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-76" value="PK INT SellID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-76" value="PK INT ProductID (Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-77" value="FK INT PersonID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-77" value="NVARCHAR(128) ProductName (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-78" value="NVARCHAR(16) SellDate" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-78" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="104" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-79" value="NVARCHAR(128) productName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-79" value="NVARCHAR(128) ProductName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="130" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-80" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="156" width="200" height="26" as="geometry" />
+          <mxGeometry y="156" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-81" value="+ method(type): type" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-81" value="void InsertNewProduct&#xa;(NVARCHAR(128) productName, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="182" width="250" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-82" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
-          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-123" value="Product GetAllProduct()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-74">
+          <mxGeometry y="220" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-83" value="Eladásokat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="350" y="840" width="200" height="26" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-83" value="Termékinformációkat tárol" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-85" value="Person" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
           <mxGeometry x="350" y="126" width="200" height="236" as="geometry" />
@@ -160,11 +145,65 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-93" value="Személyeket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="350" y="100" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-102" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="256" width="250" height="24" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-124" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="866" width="200" height="234" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-103" value="void InsertNewProduct&#xa;(NVARCHAR(128) productName, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="250" height="40" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-125" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-126" value="PK INT SellID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-127" value="FK INT PersonID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-128" value="NVARCHAR(16) SellDate" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-129" value="NVARCHAR(128) productName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-130" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-131" value="+ method(type): type" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-132" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-133" value="Eladásokat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="840" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-134" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="866" width="200" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-135" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-136" value="PK INT SellID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-137" value="FK INT PersonID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-138" value="NVARCHAR(16) SellDate" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-139" value="NVARCHAR(128) productName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-140" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-141" value="+ method(type): type" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-142" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-134">
+          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-143" value="Eladásokat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="590" y="840" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
