@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-15T16:03:11.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="8rRmKgAb-p6nbxMhckXV" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-15T16:14:00.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="MJsJiFl2BimpoA3ETmo6" version="14.3.1" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
           <mxGeometry x="350" y="154" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-124" value="Orders" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
-          <mxGeometry x="600" y="540" width="200" height="330" as="geometry" />
+          <mxGeometry x="600" y="540" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-125" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -136,11 +136,11 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-131" value="void InsertToSellLog&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=0;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
           <mxGeometry y="156" width="200" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-132" value="void DeleteOrder&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
-          <mxGeometry y="210" width="200" height="60" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-132" value="void DeleteOrder&#xa;(NVARCHAR(128) PersonName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
+          <mxGeometry y="210" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iJAlly9e5_3-fQ2MK9_X-4" value="Order GetOrders&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
-          <mxGeometry y="270" width="200" height="60" as="geometry" />
+        <mxCell id="iJAlly9e5_3-fQ2MK9_X-4" value="Order GetOrders()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="250" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-133" value="Megrendeléseket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="590" y="514" width="220" height="26" as="geometry" />
