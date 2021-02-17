@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T16:27:09.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="HEkKA2G0NbQKDVX328bq" version="14.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T16:34:06.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="FAaSPRI6C_Mdpp4vYCCx" version="14.4.0" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="350" y="154" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-124" value="SellOrders" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
-          <mxGeometry x="600" y="540" width="200" height="280" as="geometry" />
+          <mxGeometry x="620" y="514" width="200" height="380" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-125" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -100,20 +100,26 @@
         <mxCell id="giPu0UekgoksRZJJ2-Mh-128" value="FK INT ProductID(NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-130" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-67" value="INT Quantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
           <mxGeometry y="130" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-131" value="void InsertToSellLog&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=0;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
-          <mxGeometry y="156" width="200" height="54" as="geometry" />
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-68" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giPu0UekgoksRZJJ2-Mh-124">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="giPu0UekgoksRZJJ2-Mh-132" value="void DeleteSellOrder&#xa;(NVARCHAR(128) PersonName)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
-          <mxGeometry y="210" width="200" height="40" as="geometry" />
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-130" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-131" value="void InsertToSellLog&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
+          <mxGeometry y="208" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="giPu0UekgoksRZJJ2-Mh-132" value="void DeleteSellOrder&#xa;(NVARCHAR(128) PersonName,&#xa;NVARCHAR(128) ProductName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
+          <mxGeometry y="280" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iJAlly9e5_3-fQ2MK9_X-4" value="SellOrder GetSellOrders()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" parent="giPu0UekgoksRZJJ2-Mh-124" vertex="1">
-          <mxGeometry y="250" width="200" height="30" as="geometry" />
+          <mxGeometry y="350" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giPu0UekgoksRZJJ2-Mh-133" value="Megrendeléseket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="590" y="514" width="220" height="26" as="geometry" />
+          <mxGeometry x="610" y="488" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iJAlly9e5_3-fQ2MK9_X-6" value="SellLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
           <mxGeometry x="1800" y="117" width="200" height="280" as="geometry" />
@@ -143,7 +149,9 @@
           <mxGeometry y="208" width="200" height="72" as="geometry" />
         </mxCell>
         <mxCell id="iJAlly9e5_3-fQ2MK9_X-16" value="Version" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="706" width="280" height="196" as="geometry" />
+          <mxGeometry x="1060" y="706" width="280" height="196" as="geometry">
+            <mxRectangle x="1060" y="706" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iJAlly9e5_3-fQ2MK9_X-17" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="iJAlly9e5_3-fQ2MK9_X-16" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -306,7 +314,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-15" value="Products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="125" width="260" height="336" as="geometry" />
+          <mxGeometry x="30" y="125" width="260" height="310" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-16" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -317,26 +325,23 @@
         <mxCell id="CTVXIaXAg0mh1KTSip8C-18" value="NVARCHAR(128) ProductName (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
           <mxGeometry y="78" width="260" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-19" value="INT Price // NEM KELL // !!!!!" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-20" value="INT CurrentQuantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
           <mxGeometry y="110" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-20" value="INT CurrentQuantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-21" value="NVARCHAR(1024) Description" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
           <mxGeometry y="136" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-21" value="NVARCHAR(1024) Description" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-22" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
           <mxGeometry y="162" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-22" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
-          <mxGeometry y="188" width="260" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-23" value="void InsertNewProduct&#xa;(NVARCHAR(128) ProductName, INT Price, &#xa;NVARCHAR(1024) Description&#xa;)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
-          <mxGeometry y="214" width="260" height="52" as="geometry" />
+          <mxGeometry y="188" width="260" height="52" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-24" value="Product GetAllProduct()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
-          <mxGeometry y="266" width="260" height="30" as="geometry" />
+          <mxGeometry y="240" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-25" value="void IncreaseQuantity&#xa;(NVARCHAR(128) ProductName, INT Quantity)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=0;spacingBottom=0;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
-          <mxGeometry y="296" width="260" height="40" as="geometry" />
+          <mxGeometry y="270" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-26" value="Termékinformációkat tárol" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="30" y="99" width="260" height="26" as="geometry" />
@@ -369,70 +374,78 @@
           <mxGeometry x="350" y="480" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-38" value="BuyOrders" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="846" width="280" height="420" as="geometry" />
+          <mxGeometry x="30" y="846" width="280" height="446" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-39" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-45" value="FK INT ProductID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-45" value="PK INT BuyOrderID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-48" value="NVARCHAR(128) WebsiteName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-71" value="FK INT ProductID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-46" value="INT Quantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-48" value="NVARCHAR(128) WebsiteName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-62" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-46" value="INT Quantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="130" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-41" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-62" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
           <mxGeometry y="156" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-41" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-42" value="void InsertBuyOrder&#xa;(NVARCHAR(128) ProductName, &#xa;NVARCHAR(128) WebsiteName&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
-          <mxGeometry y="182" width="280" height="68" as="geometry" />
+          <mxGeometry y="208" width="280" height="68" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-47" value="void DeleteBuyOrder&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
-          <mxGeometry y="250" width="280" height="70" as="geometry" />
+          <mxGeometry y="276" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-60" value="BuyOrder GetBuyOrders()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
-          <mxGeometry y="320" width="280" height="30" as="geometry" />
+          <mxGeometry y="346" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-66" value="void InsertBuyOrderToLog&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-38">
-          <mxGeometry y="350" width="280" height="70" as="geometry" />
+          <mxGeometry y="376" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-44" value="Megrendeléseket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="30" y="820" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-49" value="PurchaseLog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="360" y="872" width="280" height="236" as="geometry" />
+          <mxGeometry x="360" y="916" width="280" height="262" as="geometry">
+            <mxRectangle x="360" y="916" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-50" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-52" value="FK INT ProductID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-52" value="PK INT PurchaseLogID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-53" value="NVARCHAR(128) WebsiteName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-69" value="FK INT ProductID (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-63" value="NVARCHAR(16) PurchaseDate" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-53" value="NVARCHAR(128) WebsiteName" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-54" value="INT Quantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-63" value="NVARCHAR(16) PurchaseDate" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="130" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-64" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-54" value="INT Quantity" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="156" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-55" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-64" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
           <mxGeometry y="182" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-55" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
+          <mxGeometry y="208" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-56" value="PurchaseLog GetPurchaseLog()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-49">
-          <mxGeometry y="208" width="280" height="28" as="geometry" />
+          <mxGeometry y="234" width="280" height="28" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-58" value="Megrendeléseket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="360" y="846" width="280" height="26" as="geometry" />
+          <mxGeometry x="360" y="890" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
