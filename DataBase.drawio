@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T17:42:43.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Y80-tYL4KtgpXqpeDa5Z" version="14.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T17:42:47.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Eb-OHD7XDaAsDHeoa-vE" version="14.4.0" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -481,9 +481,6 @@
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-83" value="Kosarakat tárol" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="720" y="1030" width="280" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-88" value="ProductID-kat tárol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1130" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
