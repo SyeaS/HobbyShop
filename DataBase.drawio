@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T17:11:21.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rgYJlDaWgNkrLd8M_bir" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T17:19:51.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="B-khoZKiXPiGJGC2ZWkq" version="14.4.2" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
-    <mxGraphModel dx="460" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,6 +319,42 @@
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-92" value="INT GetProductID()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="600" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-12" value="SoldItems" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1195" width="200" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-13" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-14" value="PK INT SoldItemID(Identity)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-15" value="FK INT ProductID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-16" value="FK INT CollectionID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-17" value="INT Quantity (NOT NULL)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-18" value="INT Price" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-19" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-20" value="void InsertSoldItem&#xa;(NVARCHAR(128) ProductName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="208" width="200" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-21" value="Functions" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;fontStyle=1;fontSize=14;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="266" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-22" value="Product | Collection GetSoldItems&#xa;(INT SoldItemID)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="Td153HO5Go86ATI3thx8-12">
+          <mxGeometry y="300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-23" value="Megvásárolt tárgyakat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1169" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
