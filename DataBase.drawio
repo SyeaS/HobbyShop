@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T11:20:06.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="N3WBkXe-_LPYBOk6zitK" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T11:20:30.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="eInmYs9llNyQmuuXad5u" version="14.4.2" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
           <mxGeometry x="1190" y="20" width="750" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-15" value="Products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
-          <mxGeometry x="30" y="125" width="260" height="340" as="geometry" />
+          <mxGeometry x="30" y="125" width="260" height="370" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-16" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="CTVXIaXAg0mh1KTSip8C-15" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -160,11 +160,14 @@
         <mxCell id="CTVXIaXAg0mh1KTSip8C-25" value="void UpdateQuantity&#xa;(NVARCHAR(128) ProductName, &#xa;NVARCHAR(1024) ProductDescription, &#xa;INT NewQuantity)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;spacingBottom=0;" parent="CTVXIaXAg0mh1KTSip8C-15" vertex="1">
           <mxGeometry y="270" width="260" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Td153HO5Go86ATI3thx8-7" value="Product GetProduct(INT ProductID)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;spacingBottom=0;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-15">
+          <mxGeometry y="340" width="260" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-26" value="Termékinformációkat tárol" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="30" y="99" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-28" value="SoldItems" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;spacingTop=-2;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1336" width="200" height="358" as="geometry" />
+          <mxGeometry x="1030" y="1336" width="200" height="330" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-29" value="Columns" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="CTVXIaXAg0mh1KTSip8C-28" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -194,7 +197,7 @@
           <mxGeometry y="266" width="200" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Td153HO5Go86ATI3thx8-3" value="Product | Collection GetSoldItems()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-28">
-          <mxGeometry y="300" width="200" height="58" as="geometry" />
+          <mxGeometry y="300" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-36" value="Eladott tárgyakat tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1310" width="200" height="26" as="geometry" />
