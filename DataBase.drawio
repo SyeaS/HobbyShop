@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T11:24:43.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="3kCuqRz2cc8PC1O1AtJM" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T11:27:39.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Za43yX6JVVsTNiiKh1jv" version="14.4.2" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,13 +299,13 @@
         <mxCell id="CTVXIaXAg0mh1KTSip8C-81" value="Stored Procedures" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" parent="CTVXIaXAg0mh1KTSip8C-73" vertex="1">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-82" value="void AddNewComplexItem&#xa;(JSON ProductIDs)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-73" vertex="1">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-82" value="void AddNewCollection&#xa;(JSON ProductIDs)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-73" vertex="1">
           <mxGeometry y="130" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-90" value="ComplexItem GetComplexItems()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-73" vertex="1">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-90" value="Collections GetCollection()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-73" vertex="1">
           <mxGeometry y="170" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Td153HO5Go86ATI3thx8-4" value="ComplexItem GetComplexItem(INT CollectionID)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-73">
+        <mxCell id="Td153HO5Go86ATI3thx8-4" value="Collection GetCollection(INT CollectionID)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" vertex="1" parent="CTVXIaXAg0mh1KTSip8C-73">
           <mxGeometry y="200" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-83" value="Szetteket tárol" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
