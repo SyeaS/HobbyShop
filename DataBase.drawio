@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T09:02:59.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="SYtKOwztz5cghpd1K4uQ" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T09:19:23.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7KK-oA0xFIzW_syYn6JE" version="14.4.2" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
         <mxCell id="CTVXIaXAg0mh1KTSip8C-42" value="void InsertBuyOrder&#xa;(NVARCHAR(128) ProductName, &#xa;NVARCHAR(128) WebsiteName, &#xa;BOOL PayedWithCard,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
           <mxGeometry y="260" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-47" value="void DeleteBuyOrder&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-47" value="void DeleteBuyOrder&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;BOOL PayedWithCard, INT Quantity, INT Price)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
           <mxGeometry y="340" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-60" value="BuyOrder GetBuyOrders()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
