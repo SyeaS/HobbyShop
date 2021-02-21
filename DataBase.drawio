@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T11:24:15.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="-IsxhIHOPfTGkn2AbpB2" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T11:24:40.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="kxiVNB_MwE3RIQ7l2T42" version="14.4.2" type="github">
   <diagram id="N79sftpWNEXY0khcwHlc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
         <mxCell id="CTVXIaXAg0mh1KTSip8C-60" value="BuyOrder GetBuyOrders()" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
           <mxGeometry y="430" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CTVXIaXAg0mh1KTSip8C-66" value="void InsertBuyOrderToLog&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;BOOL PaidWithCard, INT Quantity, INT Price, &#xa;NVARCHAR(16) SellDate)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
+        <mxCell id="CTVXIaXAg0mh1KTSip8C-66" value="void InsertBuyOrderToLog&#xa;(NVARCHAR(128) ProductName,&#xa;NVARCHAR(128) WebsiteName,&#xa;BOOL PaidWithCard, INT Quantity, INT Price, &#xa;NVARCHAR(16) PurchaseDate)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;spacingTop=2;" parent="CTVXIaXAg0mh1KTSip8C-38" vertex="1">
           <mxGeometry y="460" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CTVXIaXAg0mh1KTSip8C-44" value="Megrendeléseket tárolja" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="1" vertex="1">
